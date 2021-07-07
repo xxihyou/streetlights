@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbF-BH-YxV">
-                                <rect key="frame" x="188" y="1080" width="211" height="76"/>
+                                <rect key="frame" x="101" y="752" width="211" height="76"/>
                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bbF-BH-YxV" secondAttribute="height" multiplier="211:76" id="eZA-UX-qlV"/>
@@ -31,21 +31,21 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gau-pp-G1d">
-                                <rect key="frame" x="203" y="941" width="150" height="150"/>
+                                <rect key="frame" x="131" y="527" width="150" height="150"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="gau-pp-G1d" secondAttribute="height" multiplier="1:1" id="3je-d0-F7j"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aR1-Kg-Sf8">
-                                <rect key="frame" x="203" y="193" width="150" height="150"/>
+                                <rect key="frame" x="131" y="108" width="150" height="150"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="aR1-Kg-Sf8" secondAttribute="height" multiplier="1:1" id="MvU-82-51d"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LUS-uK-AYW">
-                                <rect key="frame" x="203" y="562" width="150" height="150"/>
+                                <rect key="frame" x="131" y="315" width="150" height="150"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="LUS-uK-AYW" secondAttribute="height" multiplier="1:1" id="3jB-ZA-JKy"/>
@@ -70,10 +70,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="greenView" destination="gau-pp-G1d" id="ARy-md-7Ky"/>
-                        <outlet property="redView" destination="aR1-Kg-Sf8" id="P57-Jp-KMO"/>
-                        <outlet property="startButton" destination="bbF-BH-YxV" id="5vJ-jm-kAA"/>
-                        <outlet property="yellowView" destination="LUS-uK-AYW" id="sfX-zf-mfY"/>
+                        <outlet property="greenView" destination="gau-pp-G1d" id="VkC-Yy-IeU"/>
+                        <outlet property="redView" destination="aR1-Kg-Sf8" id="6SG-Xi-ucn"/>
+                        <outlet property="startButton" destination="bbF-BH-YxV" id="r2t-pY-sRX"/>
+                        <outlet property="yellowView" destination="LUS-uK-AYW" id="Vjs-lU-Hea"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

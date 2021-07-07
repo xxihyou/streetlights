@@ -13,18 +13,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenView: UIView!
     @IBOutlet weak var startButton: UIButton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        redView.layer.cornerRadius = 75
-        yellowView.layer.cornerRadius = 75
-        greenView.layer.cornerRadius = 75
+        redView.layer.cornerRadius = redView.frame.size.width * 0.5
+        yellowView.layer.cornerRadius = yellowView.frame.size.width * 0.5
+        greenView.layer.cornerRadius = greenView.frame.size.width * 0.5
 
         redView.alpha = 0.3
         yellowView.alpha = 0.3
         greenView.alpha = 0.3
         
-        
     }
+    
+
 
     @IBAction func startButtonPressed() {
         switch startButton.isEnabled {
